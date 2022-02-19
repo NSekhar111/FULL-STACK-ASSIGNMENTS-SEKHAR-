@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-5</title>
+    <style type="text/css">
+        .container {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: auto auto auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+        }
+        
+        .container div {
+            text-align: center;
+            height: 220px;
+            border-radius: 3%;
+            border: 1px solid white;
+        }
+        
+        .container div:hover {
+            border: 4px solid white;
+            box-shadow: 0px 0px 30px whitesmoke;
+        }
+        
+        .container div:nth-child(1) {
+            background-color: gold;
+        }
+        
+        .container div:nth-child(2) {
+            background-color: red;
+        }
+        
+        .container div:nth-child(3) {
+            background-color: skyblue;
+        }
+        
+        .container div:nth-child(4) {
+            background-color: orange;
+        }
+        
+        .container div:nth-child(5) {
+            background-color: yellow;
+        }
+        
+        .container div:nth-child(6) {
+            background-color: greenyellow;
+        }
+        
+        .container div:nth-child(7) {
+            background-color: cyan;
+        }
+        
+        .container div:nth-child(8) {
+            background-color: rgb(25, 0, 255);
+        }
+        
+        .container div:nth-child(9) {
+            background-color: rgb(195, 0, 255);
+        }
+        
+        .container div:nth-child(10) {
+            background-color: rgb(145, 255, 0);
+        }
+        
+        .container div:nth-child(11) {
+            background-color: rgb(255, 123, 0);
+        }
+        
+        .container div:nth-child(12) {
+            background-color: rgb(211, 94, 40);
+        }
+        
+        .container div:nth-child(13) {
+            background-color: rgb(80, 192, 45);
+        }
+        
+        .container div:nth-child(14) {
+            background-color: rgb(255, 0, 191);
+        }
+        
+        .container div:nth-child(15) {
+            background-color: rgb(238, 61, 61);
+        }
+        
+        .container div:nth-child(16) {
+            background-color: rgb(224, 235, 80);
+        }
+        
+        .container div:nth-child(17) {
+            background-color: rgb(231, 116, 226);
+        }
+        
+        .container div:nth-child(18) {
+            background-color: rgb(255, 166, 0);
+        }
+        
+        #header {
+            grid-column: 1/4;
+            height: 100px;
+            border-radius: 0%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            border: 0px;
+        }
+        
+        #header div {
+            text-align: center;
+            width: 25px;
+            height: 20px;
+            border-radius: 50%;
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        #header div:hover {
+            border: 4px solid white;
+            box-shadow: 0px 0px 30px whitesmoke;
+        }
+        
+        #header div:first-of-type {
+            background-color: orange;
+        }
+        
+        #header div:nth-child(2) {
+            background-color: yellow;
+        }
+        
+        #header div:nth-child(3) {
+            background-color: greenyellow;
+        }
+        
+        #header div:nth-child(4) {
+            background-color: whitesmoke;
+        }
+        
+        .nav {
+            background-color: palevioletred;
+            width: 1290px !important;
+            border-radius: 0% !important;
+            height: 30px !important;
+            margin-left: 30px !important;
+        }
+        
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hGrid">
+        <div id="header">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="nav"></div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+
+</html>

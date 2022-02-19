@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries Selection</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="../../jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="border">
+        <header>Countries</header>
+        <marquee>Loading countries and their details with flag on click using DHTML with new HTML5 tags </marquee>
+        <div class="box1">
+            <ul>
+                <li class="h1">Choose your QUAD country</li>
+                <select onchange="cPick()" id="cPick" onmouseover="hover()" onmouseleave="notHover()">
+                    <option >Country</option>
+                    <option disabled></option>
+                    <option id="ind" value="India">India</option>
+                    <option id="jap" value="Japan">Japan</option>
+                    <option id="us" value="America">America</option>
+                    <option id="aus" value="Australia">Australia</option>
+                </select>
+                <br>
+                <select onchange="sPick()" id="sPick" class="state" onmouseover="hoverState()" onmouseleave="notHoverState()">
+                   
+                </select>
+                <br>
+                <select onchange="cityPick()" id="cityPick" class="city" onmouseover="hoverCity()" onmouseleave="notHoverCity()">
+                    
+                </select>
+            </ul>
+            <Flag class="flag" id="flag"></Flag>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

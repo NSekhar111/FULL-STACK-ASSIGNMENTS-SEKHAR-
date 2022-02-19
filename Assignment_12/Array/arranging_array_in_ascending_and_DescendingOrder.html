@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array in ascending or descending order</title>
+</head>
+
+<body>
+    <script>
+        function displayData() {
+            var num = [1, 25, 3, 4, 5, 6, 557, 8, 9, 10, 151, 12, 13, 51954, 15, 16, 17, 158, 1559, 250, 21, 522, 23, 24, 255, 26, 527, 28, 29, 30, 31, 32, 33, 34, 35, 36, 5357, 38, 539, 40, 541, 42, 43, 454, 455, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 653, 564, 65, 66, 67, 68, 659, 70];
+            console.log("The given Array is " + num);
+            ascending(num);
+            descending(num);
+        }
+
+        function ascending(num) {
+            num.sort(function(a, b) {
+                return a - b
+            });
+            console.log(num);
+        }
+
+        function descending(num) {
+            num.sort(function(a, b) {
+                return b - a
+            });
+            console.log(num);
+        }
+        displayData();
+    </script>
+</body>
+
+</html>

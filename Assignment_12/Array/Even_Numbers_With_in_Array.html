@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Number with in a Array</title>
+</head>
+
+<body>
+    <script>
+        function array() {
+            alert("Open console log to see even numbers")
+            var num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 4, 5, 23, 4, 5, 7, 88, 2, 1, 4, 45, 8, 89, 90, 44, 7, 8, 23, 6, 7, 5, 4];
+            console.log("Array = " + num);
+            checkEven(num);
+        }
+
+        function checkEven(num) {
+            for (i = 0; i < num.length; i++) {
+                if (num[i] % 2 == 0) {
+                    var even = num[i];
+                    console.log("The Even numbers from the given array are " + even);
+                }
+            }
+        }
+        array();
+    </script>
+</body>
+
+</html>

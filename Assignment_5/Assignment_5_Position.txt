@@ -1,0 +1,316 @@
+<html>
+	<head>
+		<title>
+			Positions
+		</title>
+		<style type="text/css">
+			.headbox{
+				border: 1px solid;
+				height: 108px;
+				width: 709px;
+				margin: 70px;
+				text-align: center;
+				padding-top: 20px;
+				border-radius: 25px;
+				font-size: 65px;
+			}
+			.box{
+				border: 1px solid;
+				height: 130px;
+				width: 130px;
+				margin: 70px;
+				text-align: center;
+				padding-top: 20px;
+				border-radius: 25px;
+				font-size: 20px;
+			}
+			.boxin{
+				border: 1px solid;
+				margin: 70px;
+				margin-top: 10px;
+				text-align: center;
+				padding-top: 20px;
+				border-radius: 25px;
+				height: 48px;
+				width: 63px;
+				background-color: white;
+			}
+			.boxins{
+				border: 1px solid;
+				margin: 70px;
+				margin-top: 10px;
+				text-align: center;
+				padding-top: 20px;
+				width: 39px;
+				background-color: white;
+				font-size: 12;
+			}
+			.box1{
+				float: left;
+				clear: left;
+				background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpS4-64eTXfh13HpeWkM2eFpyrUcDIK48Ppg&usqp=CAU);
+				background-size: 279%;
+				background-repeat: no-repeat;
+				background-position:-111px 0px ;
+			}
+			.box2{
+				
+				float: right;
+				background-image: url(https://image.shutterstock.com/image-illustration/gradient-royal-blue-color-beautiful-260nw-1217161033.jpg);
+				background-size: 223%;
+				background-repeat: no-repeat;
+				background-position:-99px -3px ;
+			}
+			.box3{
+				clear: right;
+				float: left;
+				margin-top: 350px;
+				
+				background-image: url(https://image.shutterstock.com/image-illustration/studio-backdrop-260nw-195624881.jpg);
+				background-size: 196%;
+				background-repeat: no-repeat;
+				background-position:-57px -3px;
+			}
+			.box4{
+				clear: right;
+				float: right;
+				margin-top: 350px;
+				background-image: url(https://image.shutterstock.com/image-illustration/gradient-royal-blue-color-beautiful-260nw-1217161033.jpg);
+				background-size: 223%;
+				background-repeat: no-repeat;
+				background-position:-99px -3px ;
+			}	
+			.box5{
+				clear: left;
+				float: left;
+				margin-top: 10px;
+				position: absolute;
+				left: 75px;
+				top: 150px;
+				background-image: url(https://images.wallpaperscraft.com/image/single/background_solid_purple_65808_1600x1200.jpg);
+				background-size: 254%;
+				background-repeat: no-repeat;
+				background-position:-119px -20px;				
+			}	
+			.box6{
+				float: right;
+				margin-top: 10px;
+				position: absolute;
+				right: 75px;
+				top: 150px;
+				background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR60svnOzIFAz9zljGa-tFxPCFF3AftcXTk4A&usqp=CAU);
+				background-size: 196%;
+				background-repeat: no-repeat;
+				background-position:-57px -91px;
+			}	
+			.box7{
+				clear: both;
+				float: left;
+				margin-top: 10px;
+				position: absolute;
+				left: 75px;
+				bottom: 75px;	
+				background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUuATBi_8VO2wLB1KW_AzMbAj3eS1cCIpr6Q&usqp=CAU);
+				background-size: 196%;
+				background-repeat: no-repeat;
+				background-position:-57px -7px;
+			}	
+			.box8{
+				clear: right;
+				float: right;
+				margin-top: 10px;
+				position: absolute;
+				right: 75px;
+				bottom: 75px;
+				background-image: url(https://image.shutterstock.com/image-illustration/plain-middle-green-solid-color-260nw-1883336494.jpg);
+				background-size: 228%;
+				background-repeat: no-repeat;
+				background-position:-111px -0px ;				
+			}
+			.box9{				
+				margin-top: 10px;
+				position: absolute;
+				top: 364.5px;
+				left: 641.5px;
+				background-image: url(https://www.pngitem.com/pimgs/m/8-87313_red-nose-transparent-background-image-red-sphere-png.png);
+				background-size: 228%;
+				background-repeat: no-repeat;
+				background-position:-113px -52px;				
+			}	
+			.box10{
+				margin-top: 10px;
+				position: absolute;
+				top: 262.5px;
+				left: 550.5px;
+				background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR60svnOzIFAz9zljGa-tFxPCFF3AftcXTk4A&usqp=CAU);
+				background-size: 196%;
+				background-repeat: no-repeat;
+				background-position:-57px -91px;
+			}
+			.box11{
+				margin-top: 10px;
+				position: absolute;
+				top: 262.5px;
+				left: 732.5px;
+				background-image: url(https://image.shutterstock.com/image-illustration/plain-middle-green-solid-color-260nw-1883336494.jpg);
+				background-size: 228%;
+				background-repeat: no-repeat;
+				background-position:-111px -0px ;
+			}
+			.box12{
+				margin-top: 10px;
+				position: absolute;
+				top: 465.5px;
+				left: 732.5px;
+				background-image: url(https://image.shutterstock.com/image-illustration/gradient-royal-blue-color-beautiful-260nw-1217161033.jpg);
+				background-size: 223%;
+				background-repeat: no-repeat;
+				background-position:-99px -3px ;
+			}
+			.box13{
+				margin-top: 10px;
+				position: absolute;
+				top: 465.5px;
+				left: 550.5px;
+				background-image: url(https://image.shutterstock.com/image-illustration/studio-backdrop-260nw-195624881.jpg);
+				background-size: 196%;
+				background-repeat: no-repeat;
+				background-position:-57px -3px;
+			}
+			.boxhead{
+				margin-top: 10px;
+				position: absolute;
+				top: 9px;
+				left: 368.5px;
+				background-image: url(https://p0.pikist.com/photos/554/577/messy-abstract-painting-art-artist-canvas-brush-brushstroke-background-wallpaper.jpg);
+				background-position: 235px -6px;
+				color: white;
+				text-shadow: 1px 2px 7px black;
+
+			}
+			.box14{
+				position: absolute;
+				top: 150px;
+				left: 75px;
+				border-top-left-radius:25px ;
+				border-top-right-radius:0px ;
+				border-bottom-right-radius:25px ;
+				border-bottom-left-radius: 0px;
+				background-image: url(https://cdn.crispedge.com/fb5ffc.webp);
+			}
+			.box15{
+				position: absolute;
+				top: 150px;
+				left: 1320px;
+				border-top-left-radius:0px ;
+				border-top-right-radius:25px ;
+				border-bottom-right-radius:0px ;
+				border-bottom-left-radius: 25px;
+				background-image: url(https://image.shutterstock.com/image-illustration/plain-middle-green-solid-color-260nw-1883336494.jpg);
+			}
+			.box16{
+				position: absolute;
+				top: 640px;
+				left: 1320px;
+				height:64px;
+				border-top-left-radius:25px ;
+				border-top-right-radius:0px ;
+				border-bottom-right-radius:25px ;
+				border-bottom-left-radius: 0px;
+				background-image: url(http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSNLhjmObWlT3o8IbCQhQHf3goTSm8fgBzC1BWK-l_ajGTnipP65IZ2IjqE1C_pdbw2zS7LlaGoFjQxK4ORnNE);
+			}
+			.box17{
+				position: absolute;
+				top:640px;
+				left:75px;
+				height:64px;
+				border-top-left-radius:0px ;
+				border-top-right-radius:25px ;
+				border-bottom-right-radius:0px ;
+				border-bottom-left-radius: 25px;
+				background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCpKXHmdnjy10df8T-hwNdQDtBszieOQ3iihchNZCN_5RG5mxjcoMlBnWutUJquhkqI6E&usqp=CAU);
+			}
+			.box18{
+				position: absolute;
+				top: 365px;
+				left: 642px;
+				height:28px;
+				border-top-left-radius:25px ;
+				border-top-right-radius:0px ;
+				border-bottom-right-radius:25px ;
+				border-bottom-left-radius: 0px;
+				background-image: url(https://media.istockphoto.com/photos/abstract-orange-background-picture-id679762938?k=20&m=679762938&s=612x612&w=0&h=y79QcJh8Y_8-WT1dqJa6OOZKcakVSpylQHbG3CC5GOc=);
+			}.box19{
+				position: absolute;
+				top: 365px;
+				left: 733px;
+				height:28px;
+				border-top-left-radius:0px ;
+				border-top-right-radius:25px ;
+				border-bottom-right-radius:0px ;
+				border-bottom-left-radius: 25px;
+				background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR60svnOzIFAz9zljGa-tFxPCFF3AftcXTk4A&usqp=CAU);
+				background-size: 207%;
+				background-repeat: no-repeat;
+				background-position: -10px;				
+			}.box20{
+				position: absolute;
+				top: 466px;
+				left: 733px;
+				height:30px;
+				border-top-left-radius:25px ;
+				border-top-right-radius:0px ;
+				border-bottom-right-radius:25px ;
+				border-bottom-left-radius: 0px;
+				background-image: url(https://images.wallpaperscraft.com/image/single/background_solid_purple_65808_1600x1200.jpg);
+				background-size: 254%;
+				background-repeat: no-repeat;
+				background-position:-41px -15px;
+			}.box21{
+				position: absolute;
+				top: 466px;
+				left: 642px;
+				height:29px;
+				border-top-left-radius:0px ;
+				border-top-right-radius:25px ;
+				border-bottom-right-radius:0px ;
+				border-bottom-left-radius: 25px;
+				background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpS4-64eTXfh13HpeWkM2eFpyrUcDIK48Ppg&usqp=CAU);
+				background-size:315%;
+				background-repeat: no-repeat;
+				background-position:-2px -3px ;
+			}
+			.bod{
+				height: 852;
+				width: 1575;
+				border: 5px double;
+				background-image: url(https://media.istockphoto.com/photos/abstract-white-grunge-painted-background-picture-id1164466834?k=20&m=1164466834&s=612x612&w=0&h=eFA-YC_eOB8xqN2gDCbDp0RxDjh4SxZvlqNTZMOre6s=);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box box1"></div>
+		<div class="box box2"></div>
+		<div class="box box3"></div>
+		<div class="box box4"></div>
+		<div class="box box5"></div>
+		<div class="box box6"></div>
+		<div class="box box7"></div>
+		<div class="box box8"></div>
+		<div class="box box9">Red</div>
+		<div class="box box10">Yellow</div>
+		<div class="box box11">Green</div>
+		<div class="box box12">Blue</div>
+		<div class="box box13">White</div>
+		<div class="headbox boxhead">Colour Combination</div>
+		<div class="boxin box14">Magenta</div>
+		<div class="boxin box15">Green</div>
+		<div class="boxin box16">Cyan</div>
+		<div class="boxin box17">Grey</div>
+		<div class="boxins box18">Orange</div>
+		<div class="boxins box19">Yellow</div>
+		<div class="boxins box20">Violet</div>
+		<div class="boxins box21">Pink</div>
+	    <div class="bod"></div>
+	</body>
+</html>

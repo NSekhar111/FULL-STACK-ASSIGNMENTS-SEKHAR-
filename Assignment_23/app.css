@@ -1,0 +1,139 @@
+.border {
+    height: fit-content;
+    width: 1564px;
+    border: 2px solid black;
+    background-image: url();
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+header {
+    height: 131px;
+    border: solid;
+    text-align: center;
+    border-width: 2px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 1px -32px;
+    background-color: rgba(255, 122, 82, 0.719);
+}
+
+marquee {
+    font: 20px bold;
+    color: rgb(165, 42, 118);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box1 {
+    margin: 20px;
+    background-color: rgb(223, 249, 251);
+    height: 580px;
+    border: 1px solid;
+}
+
+#men1:hover,
+#men2:hover,
+#men3:hover,
+#men4:hover,
+#women1:hover,
+#women2:hover,
+#women3:hover,
+#women4:hover,
+#kids1:hover,
+#kids2:hover,
+#kids3:hover,
+#kids4:hover {
+    border: rgb(180, 175, 175) 0px solid;
+    background-color: rgb(255, 255, 255);
+    box-shadow: black 0px 0px 10px;
+}
+
+.men,
+.women,
+.kids,
+.items {
+    display: inline-block;
+    border: 1px solid;
+    height: 319px;
+    width: 491px;
+    margin: 10px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+
+#men {
+    float: left;
+    clear: both;
+}
+
+#kids {
+    margin: 10px auto;
+}
+
+#women {
+    position: relative;
+    top: 0px;
+    margin: 10px 10px;
+    float: right;
+}
+
+#items {
+    left: 1px;
+    width: 1480px;
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+}
+
+img {
+    height: 139px;
+    width: 120px;
+    margin: 1px;
+    padding: 0px;
+    float: left;
+    clear: right;
+    position: relative;
+    top: 36px;
+}
+
+#MenLogo {
+    position: absolute;
+    top: 60mm;
+    left: 64mm;
+}
+
+#KidsLogo {
+    position: absolute;
+    top: 60mm;
+    left: 198mm;
+}
+
+#WomenLogo {
+    position: absolute;
+    top: 60mm;
+    left: 334mm;
+}
+
+#ItemsLogo {
+    position: absolute;
+    top: 156mm;
+    left: 195mm;
+}
+
+#ItemsLogo,
+#WomenLogo,
+#KidsLogo,
+#MenLogo {
+    border: 1px solid;
+    font-family: monospace;
+    font-size: 50px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Progress Card On Page</title>
+    <link rel="stylesheet" href="studentapp.css">
+    <script src="studentapp.js"></script>
+</head>
+
+<body id="body">
+
+    <div class="border">
+        <header>Student Report</header>
+        <marquee>Generate Your Dynamic Student Progress Card On Page</marquee>
+        <div class="box1">
+            <table border="1px solid" cellpadding="20px" cellspacing="0px" style="width:1524px; font-size: 25px; font-family: courier new;">
+                <thead>
+                    <tr>
+                        <th>Ser No.</th>
+                        <th>STUDENT DETAILS</th>
+                        <th>PROGRESS CARD</th>
+                    </tr>
+                </thead>
+                <tbody style="font-size: 25px;">
+                    <tr>
+                        <td style="font-weight: bold;">1.</td>
+                        <td>
+                            <li>Name : <input type="text" id="sName" class="nBox" title="Enter your name here" placeholder="student name">
+                            </li>
+                            <li>Age : <input type="text" id="sAge" class="aBox" title="Enter your age here" placeholder="student age"></li>
+                            <li>Gender : <input type="radio" name="sGender" value="Male"> Male <input type="radio" name="sGender" value="Female"> Female </li>
+                            <li>Marks :
+                                <input type="text" id="mathsMarks" class="mBox" title="Enter your Maths marks here" placeholder="Maths">
+                                <input type="text" id="phyMarks" class="mBox" title="Enter your Physics marks here" placeholder="Physics">
+                                <input type="text" id="chemmarks" class="mBox" title="Enter your Chemistry marks here" placeholder="Chemistry">
+                                <input type="text" id="bioMarks" class="mBox" title="Enter your Biology marks here" placeholder="Biology">
+                                <input type="text" id="geoMarks" class="mBox" title="Enter your geography marks here" placeholder="Geography">
+                            </li>
+                            <div style="text-align: right;"><input type="submit" id="submit" value="Generate Progress Card" class="pcButton" onclick="readData();" title="Click here to generate Progress card">
+                            </div>
+                        </td>
+                        <td id="rPc"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

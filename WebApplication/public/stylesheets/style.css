@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+li {
+  list-style: none;
+  border: 1px solid;
+  margin: 5px;
+  padding: 5px;
+  background-color: #ccc;
+}
+.imgcontainer img {
+  width: 150px;
+  height: 130px;
+}
+
+.pContainer {
+  border: 1px solid;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}

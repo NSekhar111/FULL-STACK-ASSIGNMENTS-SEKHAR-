@@ -1,0 +1,103 @@
+    .border {
+        height: fit-content;
+        width: 1564px;
+        border: 2px solid black;
+        background-image: url();
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+    }
+    
+    header {
+        height: 131px;
+        border: solid;
+        text-align: center;
+        border-width: 2px;
+        margin: 20px;
+        padding: 10px;
+        font-size: 75px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        background-image: url(https://media.istockphoto.com/photos/components-of-board-games-on-light-blue-background-flat-lay-space-for-picture-id1317588344?b=1&k=20&m=1317588344&s=170667a&w=0&h=pL4NY2xzoSocpmrk1N4CFWqF9bnIXtMIW96gfZWZDKA=);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 1px -32px;
+        background-color: rgba(252, 255, 82, 0.719);
+    }
+    
+    marquee {
+        font: 20px bold;
+        color: brown;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .box1 {
+        margin: 20px;
+        background-color: rgb(251, 223, 247);
+        height: 580px;
+        border: 1px solid;
+    }
+    
+    .dice {
+        height: 100px;
+        width: 100px;
+        border: 1px solid black;
+        position: relative;
+        top: 80px;
+        right: 50px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 80px;
+        border-radius: 10px;
+        font-family: monospace;
+        position: relative;
+        top: -12cm;
+        right: -28cm;
+    }
+    
+    .throwDice {
+        margin: 10px;
+        padding: 10px;
+        height: 77px;
+        width: 279px;
+        font-size: 30px;
+        border-radius: 50px;
+        background-color: yellow;
+        font-family: monospace;
+        font-weight: bolder;
+        box-shadow: 5px 5px 12px black;
+        position: absolute;
+        top: 15cm;
+        right: 7cm;
+    }
+    
+    .numberBox {
+        height: 500px;
+        width: 700px;
+        border: 1px solid;
+        margin: 30px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+    }
+    
+    .number {
+        height: 45px;
+        width: 45px;
+        border: 1px solid;
+        border-radius: 50px;
+        margin: 5px;
+        float: left;
+        font-size: 37px;
+        font-weight: bolder;
+        text-align: center;
+        background-color: wheat;
+    }
+    
+    .highlight {
+        background-color: yellow;
+    }
+    
+    .buttonHover {
+        border: white 5px solid;
+    }

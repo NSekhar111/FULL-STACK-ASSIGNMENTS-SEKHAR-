@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the number of chracters at even places</title>
+</head>
+
+<body>
+    <script>
+        function displayData() {
+            var str = "Hello everyone, this is your daily dose of internet";
+            console.log("string = " + str);
+
+            findEven(str);
+        }
+
+        function findEven(str) {
+            var count = 0;
+            for (i = 0; i < str.length; i++) {
+                if (str[i] != " ") {
+                    if (i % 2 == 0) {
+                        count++;
+                    }
+                }
+            }
+            console.log("The total number of characters at even place are = " + count);
+        }
+        displayData();
+    </script>
+</body>
+
+</html>

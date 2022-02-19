@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage/Cache</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="./../../jquery.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div class="border">
+        <header>Local/Session storage - Cache</header>
+        <marquee>Check remember login details box using local storage </marquee>
+        <div class="box1">
+            <ul>
+                <li>User Id: <input type="text" id="userName" title="enter your user name here.">
+                </li>
+                <li>Password: <input type="password" id="userPsw" title="eneter your login password here"><span id="showPsw">&#128584</span></li>
+                <li class="rem"> <input type="button" id="loginBtn" value="Login" title="click here to login" onmouseover="hover()" onmouseleave="notHover()"> <input type="checkbox" id="checkBox" title="click here to remember you login details" checked>Remember login
+                    details
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

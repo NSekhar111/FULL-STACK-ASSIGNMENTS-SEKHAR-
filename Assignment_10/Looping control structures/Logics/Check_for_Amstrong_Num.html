@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check For Amstrong Number</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        num = prompt("Enter your number")
+        alert("Open Console tab to see the whether Amstrong Number or Not")
+        var num, rem, len, x, y;
+        var sum = 0;
+        num = parseInt(num);
+        num1 = num
+        len = num.toString().length;
+        while (num > 0) {
+            rem = num % 10;
+            x = rem;
+            y = len;
+            sum += Math.pow(x, y);
+            num = num / 10;
+            num = parseInt(num);
+        }
+        console.log("The Sum of the given number is " + sum);
+        if (sum == num1) {
+            console.log(num1 + " is a Amstrong number");
+        } else {
+            console.log(num1 + " is not an Amstrong number");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+header, footer, main {
+    border: 1px solid;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+}
+body {
+    background-color: antiquewhite;
+}
+
+footer {
+    bottom: 5px;
+    font-size: 11px;
+    text-align: center;
+    padding: 8px;
+    background-color: bisque;
+}
+header {
+    padding: 8px;
+    text-transform: capitalize;
+    text-align: center;
+}
+main {
+    top: 50px;
+    bottom: 40px;
+    overflow: auto;
+}
+.tagLine {
+    font-size: 11px;
+    color: brown;
+}
+.loginBlock {
+    border: 1px solid;
+    width: 500px;
+    background-color: aliceblue;
+    margin: 30px auto;
+}
+
+.loginBlock li {
+    list-style: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+.loginBlock ul {
+    margin: 5px;
+    padding: 5px;
+}
+
+.loginError {
+    color: red;
+    text-align: center;
+    display: none;
+}

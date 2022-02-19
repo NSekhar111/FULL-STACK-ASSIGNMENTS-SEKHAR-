@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find out total number of Uper case and Lower Case characters within a given strings</title>
+</head>
+
+<body>
+    <script>
+        function displayData() {
+            var str = prompt("Hello EveryOne, Type your text here to find out total number of Upper and Lower case characters in it");
+            console.log("String = " + str);
+            checkUpperLower(str)
+        }
+
+        function checkUpperLower(str) {
+            var upper = 0;
+            var lower = 0;
+
+            for (i = 0; i < str.length; i++) {
+                if (str[i] >= "A" && str[i] <= "Z") {
+                    upper++;
+                }
+                if (str[i] >= "a" && str[i] <= "z") {
+                    lower++;
+                }
+            }
+            console.log("The number of Upper case characters are = " + upper);
+            console.log("The number of Lower case characters are = " + lower);
+        }
+        displayData();
+    </script>
+</body>
+
+</html>

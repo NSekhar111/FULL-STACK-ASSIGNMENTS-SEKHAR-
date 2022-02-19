@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the number of characters without using predefined properties</title>
+</head>
+
+<body>
+    <script>
+        function displayData() {
+            var str = "Hello everyone,this program is to find out the total number of character without using predefined properties";
+            console.log("The given string is = " + str);
+            findCharacters(str);
+        }
+
+        function strLength(str) {
+            var length = 0;
+            while (str[length] !== undefined) {
+                length++;
+            }
+            return length;
+        }
+
+        function findCharacters(str) {
+            var count = 0;
+            for (i = 0; i < strLength(str); i++) {
+                if (str[i] != " ") {
+                    count = count + 1;
+                }
+            }
+            console.log("The total number of chracter are = " + count)
+        }
+        displayData();
+    </script>
+</body>
+
+</html>

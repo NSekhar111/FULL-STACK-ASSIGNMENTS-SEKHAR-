@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag/Drop</title>
+    <link rel="stylesheet" href="app.css">
+
+    <script src="jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="border">
+        <header>Drag and Drop</header>
+        <marquee>Pick Items and drop it in the suitable box using <b>Drag and Drop method</b></marquee>
+        <div class="box1" id="box1">
+            <men class="men" id="men" ondrop="dropMen(event)" ondragover="dragOverMen(event)"></men>
+            <kids class="kids" id="kids" ondrop="dropKids(event)" ondragover="dragOverKids(event)"></kids>
+            <women class="women" id="women" ondrop="dropWomen(event)" ondragover="dragOverWomen(event)"></women>
+            <items class="items" id="items">
+                <img src="https://www.pngarts.com/files/3/Men-Jacket-PNG-Free-Download.png" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="men1">
+                <img src="https://freepngimg.com/thumb/dress_shirt/7-2-dress-shirt-png-hd.png" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="men2">
+                <img src="https://www.pikpng.com/pngl/b/504-5041175_woodland-men-pure-leather-shoes-shoes-ads-men.png" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="men3">
+                <img src="https://freepngimg.com/thumb/cargo_pant/8-2-cargo-pant-png-image.png" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="men4">
+                <img src="https://photoshop-kopona.com/uploads/posts/2018-09/1538224323_4.jpg" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="kids1">
+                <img src="https://www.pngitem.com/pimgs/m/121-1219242_simple-daisy-kids-chill-cap-hat-for-kids.png" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="kids2">
+                <img src="https://www.nicepng.com/png/full/125-1254138_kids-bike-png-svg-royalty-free-library-bicycle.png" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="kids3">
+                <img src="https://www.nicepng.com/png/full/290-2902438_oaxis-kids-smart-watch-oaxis-watch-phone.png" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="kids4">
+                <img src="https://www.pngkit.com/png/full/773-7734497_chanderi-kurti-png-file-kurti-with-stole.png" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="women1">
+                <img src="https://freepngimg.com/thumb/watch/22872-6-ladies-watch-transparent-image.png" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="women2">
+                <img src="https://www.pinclipart.com/picdir/big/329-3298066_high-heels-clipart-many-interesting-cliparts-high-heeled.png" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="women3">
+                <img src="https://www.pikpng.com/pngl/b/209-2096148_ladies-jacket-png-image-with-transparent-background-womens.png" draggable="true" ondragstart="drag(event)" title="drag and drop it into suitable box" id="women4">
+            </items>
+
+            <div id="MenLogo">Men</div>
+            <div id="KidsLogo">Kids</div>
+            <div id="WomenLogo">Women</div>
+            <div id="ItemsLogo">Items</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

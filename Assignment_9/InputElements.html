@@ -1,0 +1,213 @@
+<html>
+	<head>
+		<title>Input Elements</title>
+		<style type="text/css">
+			footer,
+			header{
+				text-align: center;
+				border:0.1px solid none;
+				height: 88px;
+				width: 1488px;
+				margin: 28px;
+				color: black;
+				font-size: 55px;
+				font-family: papyrus;
+
+				font-weight: bold;
+				color: white;
+				background-image: url();
+				background-repeat: no-repeat;
+				background-size: 100%;
+				background-position: 0px -528px;
+				text-shadow: 2px 4px 1px pink;
+			}
+			.box{
+				height: fit-content;
+				width: fit-content;
+				border: 0.5px whitesmoke;
+				margin: 10px;
+				background-image: url(https://i.pinimg.com/originals/0c/e2/0b/0ce20b98074362a33a113e8818cd7aab.jpg);
+			}
+			.box1,
+			.box2,
+			.box3,
+			.box4{
+				height: auto;
+				width: 1488px;
+				border: 0.5px solid whitesmoke;
+				margin: 28px;
+				padding-top: 10px;
+				border-radius: 35px;
+				box-shadow: 4px 5px 9px black;
+				color: white;
+				text-shadow: 3px 4px 3px black;
+				font-family: ink free;
+				
+			}
+			
+			.sbox1,
+			.sbox2,
+			.sbox3,
+			.sbox4{
+				height: 30px;
+				width: 229px;
+				border: 0.5px solid whitesmoke;
+				position: absolute;
+				left: 50px;
+				margin: 32px;
+				margin-left: 20px;
+				text-align: center;
+				font-family: Copperplate Gothic Light;
+				font-weight: bolder;
+				padding-top: 10px;
+				border-radius: 22px;
+				background: white;
+				box-shadow: 2px 2px 8px #157e7a;
+				
+
+			}
+			.pos1{
+				top: 95px;
+			}
+			.pos2{
+				top: 298px;
+			}
+			.pos3{
+				top: 504px;
+			}
+			.pos4{
+				top: 658px;
+			}
+			li{
+				list-style-type: none;
+			}
+			ul{
+				font-weight: bold;
+			    font-size: 20px;
+			}
+			
+			.opbox1{
+				clear: left;
+				float: right;
+				padding-right: 575px;
+			}	
+			.opbox2{
+				clear: left;
+				float: right;
+				padding-right: 605px;
+			}
+			.opbox3{
+				clear: left;
+				float: right;
+				padding-right: 574px;
+			}
+			textarea{
+				opacity: 0.8; 
+				border-radius: 35px; 
+				border-bottom-right-radius: 0px;
+				box-shadow: 3px 4px 3px black;
+			}
+		</style>
+	</head>	
+	<body>
+		
+		<div class="box">
+			<header>Student Registration Page</header>
+			<div class="sbox1 pos1">Personal Details</div>
+			<div class="sbox2 pos2">Address</div>
+			<div class="sbox3 pos3">Education Qualification</div>
+			<div class="sbox4 pos4">About Info.</div>
+			<div class="box1">
+				<ul>
+					<li>Father's Name  : <input type="text" name="fname">
+					<li class="opbox1">Mail Id : <input type="text"></li>
+					</li>
+					<br>
+				    <li>Student's Name : <input type="text" name="sname"></li>
+				    <br>
+				    <li>Gender : <input type="radio" name="gender"> 
+				    	Male <input type="radio" name="gender">
+				        Female </li>
+				</ul>
+			</div>
+			<div class="box2">
+				<ul>
+					<li> Door No. : <input type="text" title="Ghar Ka pata"> 
+						 <li class="opbox2">State : <select title=" CLICK HERE To Select State From The List">
+						 			<option></option>
+						 			<option>Andhra Pradesh</option>
+									<option>Bihar</option>
+									<option>Goa</option>
+									<option>Haryana</option>
+									<option>Jammu and Kashmir</option>
+									<option>Kerala</option>
+									<option>Maharashtra</option>
+									<option>Odisha</option>
+									<option>Telangana</option>
+									<option>West Bengal</option>
+						 		 </select>
+				 		</li>
+					</li>
+					<br>
+					<li>Street Name : <input type="text"></li> 
+					<li class="opbox3">Pincode : <input type="number" title="Enter Only Number"></li>
+					<br>
+					<li>Country : <select title=" CLICK HERE To Select Country From The List">
+						 			<option></option>
+						 			<option>India</option>
+						 			<option>US</option>
+						 			<option>Japan</option>
+						 			<option>Australia</option>
+						 			<option>France</option>
+						 			<option>Israel</option>
+						 			<option>New Zeland</option>
+						 			<option>Canada</option>
+						 			<option>Afghanistan</option>
+									<option>Bangladesh</option>
+						 		 </select>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="box3">
+				<ul>
+					<li>
+						Qualification : <select title=" CLICK HERE To select your qualification">
+										<option></option>
+										<option>SSC / CBSE</option>
+										<option>Inter</option>
+										<option>Diploma</option>
+										<option>BSC</option>
+										<option>B-Tech</option>
+										<option>BCOM</option>
+										<option>MSC</option>
+										<option>M-Tech</option>
+										<option>MBA</option>
+										<option>MBBS</option>
+										<option>PHD</option>
+										</select>
+					</li>
+					<br>
+					<li>
+						Languages : <input type="checkbox"> ENGLISH  
+									<input type="checkbox"> HINDI  
+									<input type="checkbox"> TELUGU  
+									<input type="checkbox"> ODIYA 
+					</li>
+
+				</ul>
+			</div>
+			<div class="box4">
+				<ul>
+					<li>
+						 Write About Yourself : 
+						 <br>
+						 <textarea rows="8" cols="100" maxlength="1000"></textarea>
+					</li>
+				</ul>
+				
+			</div>
+			<footer style="font-size: 40px;">@Copyrights 2021</footer>
+		</div>
+	</body>
+</html>

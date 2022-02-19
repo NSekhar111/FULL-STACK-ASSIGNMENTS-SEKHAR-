@@ -1,0 +1,148 @@
+.border {
+    height: fit-content;
+    width: 1564px;
+    border: 2px solid black;
+    background-image: url();
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+header {
+    height: 131px;
+    border: solid;
+    text-align: center;
+    border-width: 2px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-image: url(https://media.istockphoto.com/photos/components-of-board-games-on-light-blue-background-flat-lay-space-for-picture-id1317588344?b=1&k=20&m=1317588344&s=170667a&w=0&h=pL4NY2xzoSocpmrk1N4CFWqF9bnIXtMIW96gfZWZDKA=);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 1px -32px;
+    background-color: rgba(252, 255, 82, 0.719);
+}
+
+marquee {
+    font: 20px bold;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box1 {
+    margin: 20px;
+    background-color: rgb(251, 223, 247);
+    height: 580px;
+    border: 1px solid;
+}
+
+.boardImage {
+    position: absolute;
+    top: 11cm;
+    left: 10cm;
+    background-image: url(https://www.pinclipart.com/picdir/big/1-18743_chessboard-png-clip-art-armagh-transparent-png.png);
+    background-repeat: no-repeat;
+    background-size: 93%;
+    background-position: 27px 13px;
+    height: 12cm;
+    width: 33cm;
+}
+
+.dice {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    position: relative;
+    top: 80px;
+    right: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 80px;
+    border-radius: 10px;
+    font-family: monospace;
+    position: absolute;
+    top: 449px;
+    right: 871px;
+}
+
+.animate {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 80px;
+    border-radius: 10px;
+    font-family: monospace;
+    position: absolute;
+    top: 449px;
+    right: 871px;
+    animation: diceAnimation 3s;
+}
+
+@keyframes diceAnimation {
+    0% {
+        top: 50px;
+        right: 50px
+    }
+    10% {
+        top: 100px;
+        right: 150px
+    }
+    20% {
+        top: 150px;
+        right: 200px
+    }
+    30% {
+        top: 300px;
+        right: 240px
+    }
+    40% {
+        top: 450px;
+        right: 300px
+    }
+    50% {
+        top: 300px;
+        right: 450px
+    }
+    60% {
+        top: 250px;
+        right: 490px
+    }
+    70% {
+        top: 550px;
+        right: 580px
+    }
+    80% {
+        top: 350px;
+        right: 640px
+    }
+    90% {
+        top: 550px;
+        right: 760px
+    }
+    95% {
+        top: 449px;
+        right: 871px
+    }
+}
+
+.throwDice {
+    margin: 60px;
+    padding: 10px;
+    height: 102px;
+    width: 279px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: yellow;
+    font-family: monospace;
+    font-weight: bolder;
+    box-shadow: 5px 5px 12px black;
+}
+
+.buttonHover {
+    border: white 5px solid;
+}

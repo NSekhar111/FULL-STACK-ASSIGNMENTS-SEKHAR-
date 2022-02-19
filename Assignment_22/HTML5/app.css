@@ -1,0 +1,108 @@
+.border {
+    height: fit-content;
+    width: 1564px;
+    border: 2px solid black;
+    background-image: url();
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+header {
+    height: 131px;
+    border: solid;
+    text-align: center;
+    border-width: 2px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 1px -32px;
+    background-color: rgba(255, 82, 82, 0.719);
+}
+
+marquee {
+    font: 20px bold;
+    color: rgb(42, 116, 165);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box1 {
+    margin: 20px;
+    background-color: rgb(242, 251, 223);
+    height: 580px;
+    border: 1px solid;
+}
+
+ul {
+    border: 1px solid;
+    margin: 60px 250px;
+    padding: 10px;
+    width: 350px;
+    font-size: 25px;
+    background-color: rgb(199, 245, 245);
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+}
+
+.buttonHover {
+    border: rgb(255, 246, 246) 3px solid;
+    background-color: rgb(247, 139, 139);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.state {
+    display: none;
+}
+
+.city {
+    display: none;
+}
+
+#cPick,
+#sPick,
+#cityPick {
+    position: relative;
+    left: 106px;
+    height: 44px;
+    width: auto;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.h1 {
+    background-color: rgb(122, 212, 248);
+    font-family: monospace;
+    font-size: 22px;
+}
+
+Flag {
+    display: block;
+}
+
+.flag {
+    border: 1px solid;
+    height: 200px;
+    width: 351px;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 7cm;
+    left: 22cm;
+    /*background-image: url(https://cdn.britannica.com/97/1597-004-05816F4E/Flag-India.jpg);*/
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    background-color: white;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emplyoees Deatils using Json</title>
+</head>
+
+<body>
+    <script>
+        function displayDetails() {
+            readDetails();
+        }
+
+        function readDetails() {
+            var details = {
+                name: prompt("Please Enter Your Name"),
+                Gender: prompt("Please Enter Your Gender"),
+                Dept: prompt("Please Enter Your Department"),
+                idNo: prompt("Please Enter Your Id no."),
+                basicSalary: parseInt(prompt("Please Enter Your Basic Salary")),
+            }
+            console.log(details);
+            showDetails(details.name, details.Gender, details.Dept, details.idNo, details.basicSalary);
+        }
+
+        function showDetails(a, b, c, d, e) {
+            console.log("Name: " + a);
+            console.log("Gender: " + b);
+            console.log("Department: " + c);
+            console.log("Id No.: " + d);
+            console.log("Basic Salary: " + e);
+            calTotalSal(e, b);
+        }
+
+        function calTotalSal(e, b) {
+            var TotalSalary, PF, HRA;
+            PF = 0.14 * e;
+            HRA = 0.25 * e;
+            TotalSalary = PF + HRA + e;
+            console.log("PF: " + PF);
+            console.log("HRA: " + HRA);
+            console.log("Total Salary= PF+HRA+Basic Salary: " + TotalSalary);
+            totalTax(TotalSalary, b);
+        }
+
+        function totalTax(TotalSalary, b) {
+
+            if (b === 'Male') {
+                if (TotalSalary >= 500000) {
+                    console.log("Tax percent is 15%");
+                } else if (TotalSalary >= 300000 && TotalSalary <= 500000) {
+                    console.log("Tax percent is 10%");
+                }
+                if (TotalSalary >= 100000 && TotalSalary <= 300000) {
+                    console.log("Tax percent is 5%");
+                } else if (TotalSalary <= 100000) {
+                    console.log("NO TAX!!");
+                }
+            }
+
+            if (b === 'Female') {
+                if (TotalSalary >= 500000) {
+                    console.log("Tax percent is 10%")
+                } else if (TotalSalary >= 300000 && TotalSalary <= 500000) {
+                    console.log("Tax percent is 5%")
+                } else {
+                    console.log("No Tax!!")
+                }
+            }
+        }
+        displayDetails();
+    </script>
+</body>
+
+</html>

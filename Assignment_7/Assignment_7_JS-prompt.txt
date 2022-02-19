@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>
+			JS_Prompt
+		</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			console.log("Student Details")
+			var a  = prompt("Name");
+			var b  = prompt("Age");
+			var c  = prompt("Gender")
+			var m1 = prompt("Maths marks")
+			m1 = parseInt(m1)
+			var m2 = prompt("Physics marks")
+			m2 = parseInt(m2)
+			var m3 = prompt("Biology marks")
+			m3 = parseInt(m3)
+			var total, avg;
+			total = m1+m2+m3;
+			avg = total/3;
+			console.log("Name: "+ a);
+			console.log("AGE: "+ b);
+			console.log("Gender: "+ c);
+			console.log("Total Marks: "+ total);
+			console.log("Average Marks: "+ avg);
+		</script>
+	</body>
+</html>

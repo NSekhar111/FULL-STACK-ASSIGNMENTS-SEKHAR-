@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+    <link rel="stylesheet" href="app.css">
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+
+<body>
+
+    <header>User Info</header>
+    <marquee left>Saving, Editing and Deleting User details using DHTML with new HTML5 tags </marquee>
+    <div class="box1">
+        <ul id="ulTag">
+
+            <li>Name : <input type="text" id="name"> </li>
+            <li>Age : <input type="number" id="age" onkeydown="validation(event)">
+                <error id="error">Age should not be more than 99</error>
+            </li>
+            <li>Gender : <input type="radio" name="gender" id="male" value="male">Male <input type="radio" name="gender" id="female" value="female"> Female
+            </li>
+            <li>Country :
+                <select id="cPick">
+                        <option ></option>
+                        <option id="ind" value="India">India</option>
+                        <option id="jap" value="Japan">Japan</option>
+                        <option id="us" value="America">America</option>
+                        <option id="aus" value="Australia">Australia</option>
+                    </select>
+            </li>
+            <input type="button" value="Add Details" id="addButton" onclick="addBtn(event)">
+        </ul>
+        <table border="1px solid" cellpadding="20px" cellspacing="0px" id="table">
+            <thead>
+                <tr>
+                    <th>Ser No.</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Country</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

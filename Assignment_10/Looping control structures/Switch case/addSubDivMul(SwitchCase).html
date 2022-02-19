@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+			Switch Case(Add/Mul/Div/Sub)
+		</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var firstNumber = parseInt(prompt("Enter First number here"));
+			var secondNumber = parseInt(prompt("Enter Second number here"));
+			var result;
+			var method = prompt("Which method you would like to use Add, Sub, Mul, Div :")
+			switch (method) {
+				case 'Add':
+							result = firstNumber + secondNumber;
+							console.log("The addition of the two number is " + result);
+							break;
+				case 'Sub':
+							result = firstNumber - secondNumber;
+							console.log("The substraction of the two number is " + result);
+							break;
+
+				case 'Mul':
+							result = firstNumber * secondNumber;
+							console.log("The multiplicsation of the two number is " + result);
+							break;
+				case 'Div':
+							result = firstNumber / secondNumber;
+							console.log("The division of the two number is " + result);
+							break;
+				default :
+							console.log("Please select a valid method");
+			}
+		</script>
+
+	</body>
+</html>

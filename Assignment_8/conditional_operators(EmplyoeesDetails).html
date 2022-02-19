@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>
+			Conditional Operators
+		</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			console.log("Employee Details")
+            var a = prompt("Please Enter Your Name")
+            var b = prompt("Please Enter Your Gender")
+            var c = prompt("Please Enter Your Department")
+            var d = prompt("Please Enter Your Id no.")
+            var e = prompt("Please Enter Your Basic Salary")
+            e = parseInt(e)
+            var TotalSalary, PF, HRA ,Male ,Female;
+            Male = "Male"
+            Female = "Female"
+            PF = 0.14*e;
+            HRA = 0.25*e;
+            TotalSalary = PF + HRA + e;
+            console.log("Name: " + a);
+            console.log("Gender: " + b);
+            console.log("Department: " + c);
+            console.log("Id No.: " + d);
+            console.log("Basic Salary: " + e);
+            console.log("PF: " + PF);
+            console.log("HRA: " + HRA);
+            console.log("Total Salary= PF+HRA+Basic Salary: " + TotalSalary);
+            
+            if (b==Male){
+                if(TotalSalary >= 500000){
+                    console.log("Tax percent is 15%");
+                }else if(TotalSalary >= 300000 && TotalSalary <= 500000){
+                    console.log("Tax percent is 10%");
+                }if(TotalSalary >= 100000 && TotalSalary<=300000){
+                console.log("Tax percent is 5%");
+                 }else if(TotalSalary<=100000) {
+                console.log("NO TAX!!");
+                 }
+                }  
+            if (b==Female){
+                if (TotalSalary >= 500000){
+                    console.log("Tax percent is 10%")
+                }else if(TotalSalary >= 300000 && TotalSalary <= 500000){
+                    console.log("Tax percent is 5%")
+                }else {
+                console.log("No Tax!!")
+                }
+            }
+		</script>
+	</body>
+</html>

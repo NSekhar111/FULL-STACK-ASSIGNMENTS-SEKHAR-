@@ -1,0 +1,110 @@
+.border {
+    height: fit-content;
+    width: 1564px;
+    border: 2px solid black;
+    background-image: url();
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+header {
+    height: 131px;
+    border: solid;
+    text-align: center;
+    border-width: 2px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 67%;
+    background-position: 275px 31px;
+    background-color: rgba(252, 255, 82, 0.719);
+}
+
+.box1 {
+    margin: 20px;
+    background-color: rgb(166, 236, 245);
+    background-image: url();
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+}
+
+.bsBox {
+    width: 170px;
+    background-color: white;
+    text-align: center;
+    height: 20px;
+    border-radius: 7px;
+}
+
+.nBox {
+    position: relative;
+    left: 120px;
+    background-color: white;
+    height: 20px;
+    width: 170px;
+    border-radius: 7px;
+}
+
+.dBox {
+    position: relative;
+    left: 120px;
+    background-color: white;
+    height: 20px;
+    width: 170px;
+    border-radius: 7px;
+}
+
+.iBox {
+    position: relative;
+    left: 90px;
+    background-color: white;
+    height: 20px;
+    width: 170px;
+    border-radius: 7px;
+}
+
+.psButton {
+    position: relative;
+    top: 17px;
+    left: -25px;
+    background-color: rgb(229, 255, 0);
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 25px;
+    font-weight: bold;
+    background-image: url();
+}
+
+marquee {
+    font: 20px bold;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.error {
+    color: red;
+    font-size: 11px;
+    position: relative;
+    left: 11px;
+    top: 2px;
+}
+
+.printTab {
+    font-weight: bolder;
+    text-align: center;
+    width: 220px;
+    height: auto;
+}
+
+.printTable {
+    word-wrap: break-word;
+    display: none;
+}

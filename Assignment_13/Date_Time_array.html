@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date & Time Array</title>
+    <style type="text/css">
+        h {
+            border: 5px dotted black;
+            border-radius: 25PX;
+            font: 50px bold;
+            text-align: center;
+            width: 900px;
+            height: auto;
+            position: absolute;
+            top: 163px;
+            left: 300px;
+            padding: 10PX;
+            background-color: #f6f888;
+        }
+        
+        li {
+            list-style: none;
+            font-weight: bold;
+        }
+        
+        .box {
+            text-align: left;
+            font-size: 35px;
+            color: black;
+            border: 3px solid;
+            border-radius: 15PX;
+            margin: 10px;
+            padding: 10px;
+            width: 550px;
+            height: auto;
+            position: absolute;
+            top: 354px;
+            left: 480px;
+            background-color: lightcoral;
+        }
+        .datePos{
+            position: relative;
+            top: 300px;
+            left: 740px;
+            width: 220px;
+            background-color: white;
+        }
+       
+        .enter{
+            height: 25px;
+            width: 206px;
+            border: 1px solid;
+            background-color: white;
+            position: absolute;
+            top: 323px;
+            left: 647px;
+            
+        }
+    </style>
+</head>
+
+<body style="background-color:rgb(243, 220, 239)">
+    <div>
+        <h><b>Choose the Date Format you want to print and enter its index number</b></h>
+        <div class="enter" id="date"></div>
+        <ul class="box">
+            <li>1. 03/01/2022</li>
+            <li>2. 03rd Dec, 2022</li>
+            <li>3. 03rd December, 2022</li>
+            <li>4. 03rd Dec</li>
+            <li>5. 03/01/2022 08:25:35sec</li>
+            <li>6. December 3rd, 2022</li>
+            <li>7. December 3rd, 2022 08:25:35sec</li>
+        </ul>
+    </div>
+    <script>
+        
+
+        function displayData() {
+            data();
+        }
+
+        function data() {
+            var month_num = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']
+            var months_shorts = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            var months_full = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            var suffix = ['st', 'nd', 'rd', 'th']
+            var s;
+            var cDate = new Date();
+            if (cDate == 1 || cDate == 21) {
+                s = suffix[0];
+            } else if (cDate == 2 || cDate == 22) {
+                s = suffix[1];
+            } else if (cDate == 3 || cDate == 23) {
+                s = suffix[2];
+            } else {
+                s = suffix[3];
+            }
+            choosenFormat(month_num, months_full, months_shorts, suffix, s, cDate);
+        }
+
+        function choosenFormat(month_num, months_full, months_shorts, suffix, s, cDate) {
+
+            setTimeout(function() {
+                var select = prompt("Enter the Index number of the format you chose which are 1,2,3,4,5,6,7");
+                SwitchCase(select)
+            }, 3000);
+
+            function SwitchCase(select) {
+                switch (select) {
+
+                    case '1':
+                        var firstFormat = cDate.getDate() + '/' + month_num[cDate.getMonth()] + '/' + cDate.getFullYear();
+                        document.querySelector("#date").innerHTML = firstFormat;
+                        break;
+                    case '2':
+                        var secondFormat = cDate.getDate() + s + " " + months_shorts[cDate.getMonth()] + ', ' + cDate.getFullYear();
+                        document.querySelector("#date").innerHTML = secondFormat;
+                        break;
+                    case '3':
+                        var thirdFormat = cDate.getDate() + s + " " + months_full[cDate.getMonth()] + ', ' + cDate.getFullYear();
+                        document.querySelector("#date").innerHTML = thirdFormat;
+                        break;
+                    case '4':
+                        var fourthFormat = cDate.getDate() + s + " " + months_shorts[cDate.getMonth()];
+                        document.querySelector("#date").innerHTML = fourthFormat;
+                        break;
+                    case '5':
+                        var fifthFormat = cDate.getDate() + '/' + month_num[cDate.getMonth()] + '/' + cDate.getFullYear() + ' ' + cDate.getHours(5000) + ':' + cDate.getMinutes(5000) + ':' + cDate.getSeconds() + 'sec';
+                        document.querySelector("#date").innerHTML = fifthFormat;
+                        break;
+                    case '6':
+                        var sixthFormat = months_full[cDate.getMonth()] + ' ' + cDate.getDate() + s + ', ' + cDate.getFullYear();
+                        document.querySelector("#date").innerHTML = sixthFormat;
+                        break;
+                    case '7':
+                        var seventhFormat = months_full[cDate.getMonth()] + ' ' + cDate.getDate() + s + ', ' + cDate.getFullYear() + ' ' + cDate.getHours(5000) + ':' + cDate.getMinutes(5000) + ':' + cDate.getSeconds() + 'sec';
+                        document.querySelector("#date").innerHTML = seventhFormat;
+                        break;
+                    default:
+                       
+                        document.querySelector("#date").innerHTML = "Choose the correct option";
+                        setTimeout(function() {
+                        var select = prompt("Enter the Index number of the format you chose which are 1,2,3,4,5,6,7");
+                        SwitchCase(select)
+                        }, 1000);
+                        break;
+                }
+            }
+
+        }
+        data();
+    </script>
+</body>
+
+</html>

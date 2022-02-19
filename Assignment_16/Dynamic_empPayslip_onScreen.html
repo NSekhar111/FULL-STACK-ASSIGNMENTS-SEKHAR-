@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees Payslip Dynamically on page</title>
+    <link rel="stylesheet" href="empPayslip.css">
+    <script src="empPayslip.js"></script>
+</head>
+
+<body>
+
+    <body>
+
+        <div class="border">
+            <header>Employees Details</header>
+            <marquee>Generate Your Employees Payslip Dynamically on page</marquee>
+            <div class="box1">
+                <table border="1px solid" cellpadding="20px" cellspacing="0px" style="width:1524px; font-size: 25px; font-family: courier new">
+                    <thead>
+                        <tr>
+                            <th>Ser No.</th>
+                            <th>Employees Details</th>
+                            <th>PaySlip</th>
+                        </tr>
+                    </thead>
+                    <tbody style="font-size: 25px;">
+                        <tr>
+                            <td style="font-weight: bold;">1.</td>
+                            <td>
+                                <li>Name : <input type="text" id="empName" class="nBox" title="Enter your name here" placeholder="Employees name">
+                                </li>
+                                <li>Gender : <input type="radio" name="empGender" value="Male"> Male <input type="radio" name="empGender" value="Female"> Female </li>
+                                <li>Dept : <input type="text" id="empDept" class="dBox" title="Enter your Dept name here" placeholder="Employees dept"></li>
+                                <li>Id No. : <input type="number" id="empIdNo" class="iBox" title="Enter your Id No. here" placeholder="Employees Id No."></li>
+                                <li>Basic Salary :
+                                    <input type="number" id="empBs" class="bsBox" title="Enter your Basic Salary here" placeholder="Basic Salary"></li>
+                                <div style="text-align: right;"><input type="submit" id="submit" value="Generate Pay Slip" class="psButton" onclick="readData();" title="Click here to generate Pay slip">
+                                </div>
+                            </td>
+                            <td id="rPc"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </body>
+</body>
+
+</html>

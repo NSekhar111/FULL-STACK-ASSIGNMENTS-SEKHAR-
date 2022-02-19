@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambola Game</title>
+    <link rel="stylesheet" href="tambola.css">
+
+</head>
+
+<body>
+    <div class="border">
+        <header>Tambola Game</header>
+        <marquee>Generate random numbers in Tambola Game with Dice using Random method</marquee>
+        <div class="box1">
+            <div class="numberBox" id="numberBox">
+            </div>
+            <div class="dice" id="dice"></div>
+            <input type="button" value="Spin Dice" id="throwButton" title="Click here to throw the dice to get random number" class="throwDice" onclick="onClick()" onmouseover="hover()" onmouseleave="notHover()">
+        </div>
+    </div>
+    <script src="tambola.js"></script>
+</body>
+
+</html>

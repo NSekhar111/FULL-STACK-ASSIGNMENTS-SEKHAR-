@@ -1,0 +1,38 @@
+{
+    "empDetails": [{
+            "name": "Raj",
+            "age": "24",
+            "gender": "male",
+            "dept": "Mech",
+            "idno": "66510",
+            "basicSalary": "50,000"
+        },
+        {
+            "name": "Viraj",
+            "age": "24",
+            "gender": "male",
+            "dept": "Chem",
+            "idno": "66533",
+            "basicSalary": "70,000"
+        },
+        {
+            "name": "Viraj",
+            "age": "24",
+            "gender": "male",
+            "dept": "Chem",
+            "idno": "66533",
+            "basicSalary": "70,000"
+        },
+        {
+            "name": "Viraj",
+            "age": "24",
+            "gender": "male",
+            "dept": "Chem",
+            "idno": "66533",
+            "basicSalary": "70,000"
+        }
+
+
+
+    ]
+}

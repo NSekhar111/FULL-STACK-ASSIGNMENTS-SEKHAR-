@@ -1,0 +1,94 @@
+.border {
+    height: fit-content;
+    width: 1564px;
+    border: 2px solid black;
+    background-image: url(https://media.istockphoto.com/photos/old-white-wooden-texture-background-wallpaper-backdrop-abstract-wood-picture-id1172352983?k=20&m=1172352983&s=170667a&w=0&h=ovW4LsQOaLcFsTZjdh-gxhNn2aUDgKIgk5tz74xlL78=);
+    background-size: 114%;
+    background-repeat: no-repeat;
+    background-position: -28px -12px;
+}
+
+header {
+    height: 131px;
+    border: solid;
+    text-align: center;
+    border-width: 2px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 67%;
+    background-position: 275px 31px;
+    background-color: rgba(252, 255, 82, 0.719);
+}
+
+.box1 {
+    margin: 20px;
+    background-color: rgba(246, 195, 55, 0.65);
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+}
+
+.mBox {
+    width: 70px;
+    background-color: white;
+    text-align: center;
+    height: 20px;
+    border-radius: 7px;
+}
+
+.nBox {
+    position: relative;
+    left: 16px;
+    background-color: white;
+    height: 20px;
+    width: 170px;
+    border-radius: 7px;
+}
+
+.aBox {
+    position: relative;
+    left: 31px;
+    background-color: white;
+    height: 20px;
+    width: 170px;
+    border-radius: 7px;
+}
+
+.gBox {
+    position: relative;
+    left: -13px;
+    background-color: white;
+}
+
+.pcButton {
+    position: relative;
+    top: 17px;
+    left: -150px;
+    background-color: rgba(229, 255, 0, 0.726);
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.pcBox {
+    font-size: 19px;
+    border-radius: 4px;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    background-color: rgb(184, 226, 246);
+}
+
+marquee {
+    font: 20px bold;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
